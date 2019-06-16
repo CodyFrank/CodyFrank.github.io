@@ -1,11 +1,11 @@
 # Site settings
 author: Cody Frank
-title: 
+title: CodingWithCody
 header-img: img/home-bg.png
 email: cody.frank30@gmail.com
 copyright_name: Cody Frank
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My path to becoming a Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  CodyFrank
