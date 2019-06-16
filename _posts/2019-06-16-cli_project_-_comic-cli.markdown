@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "**CLI Project - Comic-Cli**"
-date:       2019-06-16 16:44:13 +0000
+title:      "**Marvel Meets Coding**"
+date:       2019-06-16 12:44:14 -0400
 permalink:  cli_project_-_comic-cli
 ---
 
