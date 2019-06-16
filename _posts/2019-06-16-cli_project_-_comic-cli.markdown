@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "**Marvel Meets Coding**"
+title:      "Marvel Meets Coding"
 date:       2019-06-16 12:44:14 -0400
 permalink:  cli_project_-_comic-cli
 ---
