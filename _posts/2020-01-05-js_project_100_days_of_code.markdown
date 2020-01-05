@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "JS project 100 Days Of Code"
-date:       2020-01-05 23:46:43 +0000
+date:       2020-01-05 18:46:44 -0500
 permalink:  js_project_100_days_of_code
 ---
 
 
-Weeks in the makin I am finally finished with my Javascript Project. In FlatIron school we have spent 7 weeks Learning the basics to The javascript language and it has been an adventure to say the least. Im going to write a quick post talking about my project and the journey that has been javascript.
+Weeks in the making I am finally finished with my Javascript Project. In FlatIron school we have spent 7 weeks Learning the basics to The javascript language and it has been an adventure to say the least. Im going to write a quick post talking about my project and the journey that has been javascript.
 
 ### Project Objective
 * Design and architect features across frontend and backend
