@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Project D&D 5e character sheet"
-date:       2020-03-15 19:36:08 +0000
+date:       2020-03-15 15:36:09 -0400
 permalink:  react_project_d_and_d_5e_character_sheet
 ---
 
