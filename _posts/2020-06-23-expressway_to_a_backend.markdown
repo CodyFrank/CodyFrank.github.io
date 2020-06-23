@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Expressway to a Backend"
-date:       2020-06-23 18:13:36 +0000
+date:       2020-06-23 14:13:37 -0400
 permalink:  expressway_to_a_backend
 ---
 
 
 If you follow my blog you may have read my talk about Node.JS and how awesome it is and how many problems it solves. If you havent check it out [here](https://codyfrank.github.io/what_the_heck_is_node_js). In there I talk about how Node is a runtime for JavaScript and how it can be used to create a backend or api. I even include and example on a REST api. 
 
-## Node.JS has a huge problem
+## Node.js has a huge problem
 Well Node.js has alot of huge problems according to Ryan Dahl the original creater of Node.js, check them out [here](https://www.youtube.com/watch?v=M3BM9TB-8yA), but these are not the problem im refering to. Im talking about this.
 ```
 const http = require('http')
@@ -61,7 +61,7 @@ const PORT = process.env.PORT || 3000
 server.listen(PORT, () => console.log(`Server is running... port: ${PORT}`))
 ```
 
-Who in the world wants to write all of this just to get a web server up and running. There are so many web frameworks out there now that have can do this like a million times faster. 
+Who in the world wants to write all of this just to get a web server up and running. There are so many web frameworks out there now that can do this like a million times faster. 
 
 ## The Express Solution
 This is where Express.js shines. Express.js or Express is a JavaScript Framework built ontop of Node that makes it feasible to use JavaScript as the language for your server side application. You could have a server up and running with as little as 5 lines of code. This snippet is pulled right from the express documentation.
@@ -80,14 +80,14 @@ This code makes the most simple server and displays hello world on the screen.
 
 Express is not the only framework that can be used to build a JS backend but it is by far the most popular.
 
-## Fast, Unopinionated, minimalist, web framework for Node.js
+## Fast, Unopinionated, Minimalist, Web Framework for Node.js
 *  #### Fast - 
 Express is very powerful in that you can create a server with not alot of code. This makes it fast or quickly to get running.
 
-* #### unopinionated -
+* #### Unopinionated -
 Express gives the engineer alot of freedom to write the code as they see fit. You are not bound by a lot of prexisting patterns to follow so developers can build what they need how they need it without worry of breaking somthing in the framework or extra coding to make it happen.
 
-* #### minimalist -
+* #### Minimalist -
 Express gives you a very bare minimum amount of code with the framework keeping applications simple. Without extra unneeded or unused code the programs become more readable, smaller, better looking, easier to scale and debug, and results in less work on the engineers. Gone are the days of sifting through unused files and unused lines of code cleaning and deleteing. Say goodbye to debugging code you didnt write trying to figure out what you deleted that was needed. Plus less things to mess up make it easier to learn.
 
 These put together are the reasons why Express is so popular and why so many people love it so much.
@@ -95,7 +95,7 @@ These put together are the reasons why Express is so popular and why so many peo
 ## What does it look like in action?
 Express works with node and adds extra funtionality so for starters you require or import code just like you would in Node.
 
-### server and listening
+### Server and Listening
 ```
 const express = require('express')
 const app = express()
@@ -110,7 +110,7 @@ app.listen(PORT, ()=>console.log(`Server started on port ${PORT}`))
 
 and you have a running server. please note that the second argument in the listen function provided by express is a callback. In the example a passed in a regular JavaScript arrow function (no need for express here) that logs to the console that my server is running and what port number. I used this for development so I can see what port I need to go to for localhost and know when my server is running. Second note I saved an enviornment variable PORT. This is simply incase I plan to deploy this app to Heroku later on.
 
-### routes
+### Routes
 Next we need to define some routes. A pretty simple example would look somthing like this.
 
 ```
