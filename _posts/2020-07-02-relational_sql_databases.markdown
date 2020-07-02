@@ -1,9 +1,11 @@
 ---
 layout: post
 title:      "Relational / SQL databases"
-date:       2020-07-02 16:02:02 +0000
+date:       2020-07-02 12:02:03 -0400
 permalink:  relational_sql_databases
 ---
+
+![](https://cdn.sqlservertutorial.net/wp-content/uploads/SQL-Server-Sample-Database.png)
 
 
 MySql, Microsoft SQL, PostgreSQL, SQL, SQLite, SQLbase, Oracle and many many more. These are all examples of relational databases or sometimes refered to as sql databases. 
