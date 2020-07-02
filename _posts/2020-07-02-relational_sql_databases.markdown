@@ -17,7 +17,7 @@ Relational databases are simple a way to store information or data. Twitter has 
 DataBases are broken up into two main categories. The First one being Relational or SQL databases.
 Surprise thats what this blog post is about.
 
-![](https://media.giphy.com/media/95ZYXmOCd9BBK/giphy.gif)
+
 
 These are the traditional data storage systems. 
 
